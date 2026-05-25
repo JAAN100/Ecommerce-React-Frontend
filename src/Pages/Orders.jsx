@@ -1,3 +1,4 @@
+import {Link} from 'react-router';
 import Header from '../Components/Header.jsx';
 import './CSS Pages/Orders.css'
 function Orders() {
@@ -31,7 +32,7 @@ function Orders() {
 
             <div className="order-details-grid">
               <div className="product-image-container">
-                <img src="images/products/athletic-cotton-socks-6-pairs.jpg" />
+                <img src="images/products/Linkthletic-cotton-socks-6-pairs.jpg" />
               </div>
 
               <div className="product-details">
@@ -51,15 +52,15 @@ function Orders() {
               </div>
 
               <div className="product-actions">
-                <a href="/tracking">
+                <Link to="/tracking">
                   <button className="track-package-button button-secondary">
                     Track package
                   </button>
-                </a>
+                </Link>
               </div>
 
               <div className="product-image-container">
-                <img src="images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg" />
+                <img src="images/products/Linkdults-plain-cotton-tshirt-2-pack-teal.jpg" />
               </div>
 
               <div className="product-details">
@@ -79,11 +80,11 @@ function Orders() {
               </div>
 
               <div className="product-actions">
-                <a href="/tracking">
+                <Link to="/tracking">
                   <button className="track-package-button button-secondary">
                     Track package
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -130,11 +131,11 @@ function Orders() {
               </div>
 
               <div className="product-actions">
-                <a href="/tracking">
+                <Link to="/tracking">
                   <button className="track-package-button button-secondary">
                     Track package
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
