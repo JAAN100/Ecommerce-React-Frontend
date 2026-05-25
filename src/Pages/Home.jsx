@@ -1,5 +1,5 @@
-import './Home-header.css';
-import './Home-index.css';
+import './CSS Pages/Home-header.css';
+import './CSS Pages/Home-index.css';
 
 function HomePage(){
   return (

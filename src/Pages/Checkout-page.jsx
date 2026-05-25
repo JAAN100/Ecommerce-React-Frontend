@@ -1,5 +1,6 @@
-import './Checkout-header.css'
-import './CheckoutPage.css'
+import './CSS Pages/Home-header.css'
+import './CSS Pages/Checkout-header.css'
+import './CSS Pages/CheckoutPage.css'
 function CheckoutPage() {
   return (
     <>
