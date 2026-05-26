@@ -1,0 +1,10 @@
+.not-found{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  color: rgb(238, 235, 235);
+  font-size: 100px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow:3px 3px rgb(52, 49, 49);
+}
