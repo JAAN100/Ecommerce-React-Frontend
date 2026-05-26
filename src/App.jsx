@@ -1,5 +1,5 @@
 import HomePage  from './Pages/Home'
-import CheckoutPage from './Pages/Checkout-page'
+import CheckoutPage from './Pages/checkout/Checkout-page.jsx'
 import Orders from "./Pages/Orders.jsx"
 import Tracking from './Pages/Tracking.jsx'
 import { Routes , Route} from 'react-router'
