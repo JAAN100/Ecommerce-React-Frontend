@@ -1,4 +1,3 @@
-import axios from 'axios';
 import api from './api.js';
 import HomePage from './Pages/home/Home.jsx';
 import CheckoutPage from './Pages/checkout/Checkout-page.jsx';
@@ -10,10 +9,9 @@ import { useEffect, useState } from 'react';
 
 import './App.css';
 function App() {
-  window.axios = axios
   const [cart, setCart] = useState([]);
   const loadCart = async () => {
-    const response = await axios.get('/api/cart-items?expand=product');
+    const response = await api.get('/api/cart-items?expand=product');
     setCart((response.data));
   }
   useEffect(() => {
